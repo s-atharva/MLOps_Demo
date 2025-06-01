@@ -7,7 +7,7 @@ from sklearn import metrics
 
 # 2. Load and Inspect Data
 data = pd.read_csv('data/iris.csv')
-# print(data.head(5))
+print(data.head(5))
 
 # 3. Split into Train/Test Sets
 train, test = train_test_split(
